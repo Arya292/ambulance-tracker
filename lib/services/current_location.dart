@@ -49,7 +49,7 @@ Future<String> getLoc() async {
 
   _getAddress(_currentPosition.latitude!, _currentPosition.longitude!)
       .then((value) {
-    _address = value.first.addressLine;
+    _address = value.first.addressLine!;
   });
   details += "{}";
   details += _currentPosition.latitude.toString()+" , "+_currentPosition.longitude.toString();

@@ -33,7 +33,10 @@ dependencies:
   cloud_firestore: ^2.5.3
   location: ^4.3.0
   intl: ^0.17.0
-  geocoder: ^0.2.1
+  geocoder:
+   git:
+    url: https://github.com/nguyenxdat/flutter_geocoder.git
+    ref: master
   google_maps_flutter:
   url_launcher:
   sliding_switch:

@@ -81,6 +81,9 @@ class _DriverPageState extends State<DriverPage> {
                   SlidingSwitch(
                     value: false,
                     width: 200,
+                    onTap:(){},
+                    onDoubleTap:(){},
+                    onSwipe:(){},
                     onChanged: (bool value) {
                       Fluttertoast.showToast(
                           msg: !value
@@ -108,6 +111,9 @@ class _DriverPageState extends State<DriverPage> {
                 SlidingSwitch(
                   value: false,
                   width: 200,
+                  onTap:(){},
+                  onDoubleTap:(){},
+                  onSwipe:(){},
                   onChanged: (bool value) {
                     isWorking = !value;
                     if (isWorking) isAvailable = false;
